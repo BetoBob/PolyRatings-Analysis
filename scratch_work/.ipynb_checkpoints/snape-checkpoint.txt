@@ -1,0 +1,297 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"
+
+
+Polyratings.com
+
+ Mobile Friendly Meta 
+
+
+
+ jQuery Include 
+
+ Bootstrap Includes 
+
+
+
+ Google Analytics 
+
+
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-20808156-1']);
+     _gaq.push(['_setDomainName', '.polyratings.com']);
+     _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+   
+
+
+static test 3
+
+
+
+ nav toggle
+
+Toggle navigation
+
+
+
+
+ logo
+
+
+
+
+
+
+ content of navigation bar
+
+
+
+ search box 
+
+ types of searches
+
+Instructor
+Class
+Department
+Keyword
+
+ for both keyword and professor 
+
+
+
+
+                         This nbsp is necessary due to the button being misaligned fixed in later versions of bootstrap https://github.com/twbs/bootstrap/issues/10482
+
+
+
+input group
+ need input for specific class
+
+ toplevel links 
+
+Professor List
+Evaluate a Professor
+Contact Us
+
+
+                   
+
+About Us
+FAQ
+
+
+
+
+
+
+ close container
+
+
+Snape, Severus  
+
+
+
+  Chemistry and Biochemistry3.17/4.0012 evaluationsRecognizes Student Difficulties: 2.33Presents Material Clearly: 3.333.17/4.0012 evaluations Evaluate Professor
+
+    $(document).ready(function() {
+      //scroll to sections instead of jumping
+      $("nav #sidebar li a[href^='#']").on('click', function(e) {
+         e.preventDefault();
+         var tmpHash = this.hash;
+
+         //animate the scrolling to a certain section
+         $('html, body').animate({
+             scrollTop: $(tmpHash).offset().top
+           }, 500, function(){
+     
+             //add hash to url
+             window.location.hash = tmpHash;
+           });
+
+      });
+
+      $('[data-toggle="tooltip"]').tooltip(); 
+    });    
+  
+
+
+
+
+CHEM 101
+
+
+CHEM 110
+
+
+CHEM 124
+
+
+CHEM 125
+
+
+CHEM 129
+
+
+CHEM 202
+
+
+CHEM 211
+
+
+CHEM 216
+
+
+CHEM 242
+
+
+CHEM 394
+
+
+
+
+
+CHEM 101
+
+
+Freshman
+B
+General Ed
+May 2014
+
+
+Snape, Snape, Severus Snape.
+
+CHEM 110
+
+
+Freshman
+A
+Elective
+Mar 2014
+
+
+This professor is the most amazing teacher in this joint. He really knows where the right blood lies and treats his students accordingly. If you're a mudblood, watch out. He does not take crap from any blood traders either so make sure you know your place. Overall a shining example of a professor. Kudos.
+
+CHEM 124
+
+
+Freshman
+D
+Required (Major)
+May 2015
+
+
+I tried really hard in his class but he seemed to really hate me for some reason. I tried going to office hours but he's really intimidating and to be honest he's what the boggart turns into when it sees me. I read on YikYak that he killed our old President Dumbledore. Overall, he's really scary but he really seems to know his stuff. 
+
+
+
+Freshman
+C
+Required (Support)
+Jan 2018
+
+
+Very cramped handwriting, difficult to read on the blackboard. Classroom was dimly lit and he was very hard to pay attention to. Definitely picked favorites and would snap at people who weren't good at chem.  You could tell he hated his job. He got like a quarter of his students through finals though so he must have taught some of them
+
+CHEM 125
+
+
+Sophomore
+C
+Elective
+Jan 2015
+
+
+Coming in to the class I had heard some things about Snape; he grades hard, he gives long homework assignments, he's a death eater, etc., and I was pretty intimidated. While it is true that he is a hard professor, I've learned more in his class than any other chemistry class before. His teaching style is very unorthodox; most students were working on balancing equations and entropy while we were studying Polyjuice Potion. However, it all works in the end. I'd really struggled to make a liquid luck in my CHEM 124 class with Dr. Noyes, but Snape really worked with me until I could put it together. I did feel like he really played favorites in his class; there was this guy named Harry that he just kept obsessing over, and if I asked a question he would just hit me over the head with my textbook. 
+
+All in all, he's a great professor; pretty hard and kind of a weird dude, but you really learn a lot in his class.
+
+
+
+Sophomore
+B
+Required (Major)
+May 2016
+
+
+I really wanted to get him for defense against the dark arts, but apparently he is only teaching Chem this quarter. He may seem like a hard ass, but he is a good guy. Don't listen to what everyone else says. You will be glad you took his class. Learned a lot l, but it wasn't easy. 
+
+CHEM 129
+
+
+Freshman
+C
+Required (Support)
+Jun 2015
+
+
+Prof. Snape knows his chemistry, but seems perpetually pissed off. Really hated this Harry kid. Rumors he used to be in a gang and wanted to teach law enforcement but got stuck here instead. Class was really hard, thought I failed my final but somehow came outwith a C, so at least he curves.
+
+CHEM 202
+
+
+Sophomore
+A
+General Ed
+Jan 2018
+
+
+Professor Snape is a fantastic professor. Barely tried in this class and still got an A. Plus he understands that fame isnt everything and just because you vanquished the Dark Lord as a fetus doesnt mean you should get any special treatment or whatever. 
+
+He's also my academic advisor and honestly he has been an enormous help, always asking what im up to and offering to kill Professor Dumbledore for me if it comes to that. Mad respect, even took a vow with my mum to help me if i need anything.
+
+ 
+
+
+
+CHEM 211
+
+
+Freshman
+B
+General Ed
+Mar 2014
+
+
+He can teach you how to bewitch the mind, and ensnare the senses. He can tell you how to brew glory, bottle fame, and even put a stopper in death.
+
+
+CHEM 216
+
+
+Sophomore
+B
+Required (Major)
+Jan 2016
+
+
+I miss him. Always.
+
+CHEM 242
+
+
+Sophomore
+D
+General Ed
+Jan 2016
+
+
+Professor Snape really knows his stuff. At first he seemed intimidating and I always felt like he was out to get me but he turned out to be one of the best professors I've ever had. I'm planning on even naming my kid after him. I guess we'll just have to wait and see.
+
+
+CHEM 394
+
+
+Freshman
+N/A
+Required (Major)
+Feb 2014
+
+
+At first he was really scary and intimidating. I had an itching feeling that he worked for the dark one. Like this one time, I was talking to a snake, and he gave me this look like "WTF SMH." And then I was like oh shit. I was at metro and shit and there were like candles floating everywhere. And he creeped me out because he keeped telling me I had my mother's eyes. Like wtf. And then he like totally killed Dumbledore, and I was like, "wtf, I trusted you." Anyways, I named my son after him, so all in all, he's pretty chill. Unfortunately he got killed by some snake thing. That kinda sucked. Anyways, highly recommend.
+

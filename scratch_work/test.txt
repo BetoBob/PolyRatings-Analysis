@@ -1,0 +1,167 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"
+
+
+Polyratings.com
+
+ Mobile Friendly Meta 
+
+
+
+ jQuery Include 
+
+ Bootstrap Includes 
+
+
+
+ Google Analytics 
+
+
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-20808156-1']);
+     _gaq.push(['_setDomainName', '.polyratings.com']);
+     _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+   
+
+
+static test 3
+
+
+
+ nav toggle
+
+Toggle navigation
+
+
+
+
+ logo
+
+
+
+
+
+
+ content of navigation bar
+
+
+
+ search box 
+
+ types of searches
+
+Instructor
+Class
+Department
+Keyword
+
+ for both keyword and professor 
+
+
+
+
+                         This nbsp is necessary due to the button being misaligned fixed in later versions of bootstrap https://github.com/twbs/bootstrap/issues/10482
+
+
+
+input group
+ need input for specific class
+
+ toplevel links 
+
+Professor List
+Evaluate a Professor
+Contact Us
+
+
+                   
+
+About Us
+FAQ
+
+
+
+
+
+
+ close container
+
+
+STAFF, Professor  
+
+
+
+  Physics3.00/4.003 evaluationsRecognizes Student Difficulties: 2.33Presents Material Clearly: 4.003.00/4.003 evaluations Evaluate Professor
+
+    $(document).ready(function() {
+      //scroll to sections instead of jumping
+      $("nav #sidebar li a[href^='#']").on('click', function(e) {
+         e.preventDefault();
+         var tmpHash = this.hash;
+
+         //animate the scrolling to a certain section
+         $('html, body').animate({
+             scrollTop: $(tmpHash).offset().top
+           }, 500, function(){
+     
+             //add hash to url
+             window.location.hash = tmpHash;
+           });
+
+      });
+
+      $('[data-toggle="tooltip"]').tooltip(); 
+    });    
+  
+
+
+
+
+PHYS 133
+
+
+MATH 244
+
+
+
+
+
+PHYS 133
+
+
+Sophomore
+B
+Required (Support)
+Nov 2014
+
+
+Professor STAFF is a decent teacher. Expect lots of readings and homework. A good thing is that Mastering Physics is not used (thank goodness), also a fair grader.  Midterms were a little harder than class and homework but the curve is good.  Final was also not too bad and fair. Just be sure to visit during office hours and you should have no problem passing if you put in a good effort.
+
+
+
+Sophomore
+A
+Required (Support)
+Dec 2014
+
+
+Best professor at Cal Poly for sure. TAKE THIS CLASS!!! 
+
+MATH 244
+
+
+Junior
+No Credit
+Required (Major)
+Nov 2017
+
+
+This is not the first class I've taken with Staff, so I think I've gotten to know them pretty well over the years. After taking ENGL 134, PHYS 132, COMS 101, and now this, I can say it's really hit-or-miss with Staff and how the class is taught. Considering how broad of a spectrum of classes they teach are on, this should be expected. I had a fantastic experience with Staff in the English and Coms classes, however in physics it was pretty rough (although I've heard that's more of a fault of the entire Physics department here at Cal Poly than Staff in particular).
+
+MATH 244 was a whole different ballgame though. Staff was able to very clearly present the information, but absolutely terrible at answering student questions or holding consistent office hours. Midterms were insanely different than the weekly quizzes or even the practice exams Staff passed out the week before, but as long as you were able to attend class and stay up to date on the homework assignments, as well as practicing on your own from the book outside of class, you had no trouble passing the class. Unfortunately, I didn't do those things. Learn from my mistakes.
+

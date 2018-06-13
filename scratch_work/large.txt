@@ -1,0 +1,1246 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"
+
+
+Polyratings.com
+
+ Mobile Friendly Meta 
+
+
+
+ jQuery Include 
+
+ Bootstrap Includes 
+
+
+
+ Google Analytics 
+
+
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-20808156-1']);
+     _gaq.push(['_setDomainName', '.polyratings.com']);
+     _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+   
+
+
+static test 3
+
+
+
+ nav toggle
+
+Toggle navigation
+
+
+
+
+ logo
+
+
+
+
+
+
+ content of navigation bar
+
+
+
+ search box 
+
+ types of searches
+
+Instructor
+Class
+Department
+Keyword
+
+ for both keyword and professor 
+
+
+
+
+                         This nbsp is necessary due to the button being misaligned fixed in later versions of bootstrap https://github.com/twbs/bootstrap/issues/10482
+
+
+
+input group
+ need input for specific class
+
+ toplevel links 
+
+Professor List
+Evaluate a Professor
+Contact Us
+
+
+                   
+
+About Us
+FAQ
+
+
+
+
+
+
+ close container
+
+
+Bissonnette, Michelle  
+
+
+
+  Business3.11/4.00107 evaluationsRecognizes Student Difficulties: 3.04Presents Material Clearly: 3.153.11/4.00107 evaluations Evaluate Professor
+
+    $(document).ready(function() {
+      //scroll to sections instead of jumping
+      $("nav #sidebar li a[href^='#']").on('click', function(e) {
+         e.preventDefault();
+         var tmpHash = this.hash;
+
+         //animate the scrolling to a certain section
+         $('html, body').animate({
+             scrollTop: $(tmpHash).offset().top
+           }, 500, function(){
+     
+             //add hash to url
+             window.location.hash = tmpHash;
+           });
+
+      });
+
+      $('[data-toggle="tooltip"]').tooltip(); 
+    });    
+  
+
+
+
+
+BUS 214
+
+
+BUS 215
+
+
+BUS 314
+
+
+BUS 320
+
+
+BUS 321
+
+
+ART 748
+
+
+
+
+
+BUS 214
+
+
+Sophomore
+B
+Required (Support)
+Dec 2000
+
+
+Professor Bissonnette is a decent professor.  She clearly explained concepts and if you didn't understand something completely, she would spend as much time with you until you understood it!  If I had taken advantage of her office hours more, I think I could have gotten an A in this class!
+
+
+
+Sophomore
+C
+Required (Support)
+Dec 2000
+
+
+Professor Bissonnette is teaching a very hard course in BUS 214.  She conveys the concepts well, but she also zips through things leaving students puzzled.  She is very approachable and a very nice lady.  Her office hours should be utilized if a good grade is desired because sometimes the lectures get long and tedious.  Her grading scale is pretty fair.  65% of the grade is based on 2 midterms and a final and the other 35% is based on homework, class attendance and projects.  Overall, be prepared for a tough workload, but be prepared to work with someone who genuinely cares about your success.
+
+
+
+Sophomore
+C
+Required (Support)
+Dec 2000
+
+
+Prof. Bissonnette is an adequate teacher.  Accounting is hard for most people, so it is a difficult class.  It requires a lot of time and understanding of concepts.  The required project is the same for all sections of the class.  Participation, finishing homewoek, and being in class are the keys to getting a decent grade in this class.  How good of a grade depends on your availability of time and effort.
+
+
+
+Sophomore
+B
+Required (Support)
+Mar 2001
+
+
+very good professor. 2 midterms and i quiz.  she only covers 1-11 chapters where others do 1-12.  explains things clearly.  lots of homework....she calls on you randomly and collects homework randomly
+
+
+
+Junior
+B
+Required (Support)
+Mar 2001
+
+
+Prof. Bissonnette was a great teacher. She really cares about the students and will take as much time as needed until you understand all the concepts. She is very approachable and makes everyone feel comfortable to ask questions in class. She gives clear lectures and really knows the subject material. There is a lot of homework, but it is not overwhelming. The tests are fair and reflect all lectures and reading, there are no surprises. 
+
+
+
+Sophomore
+B
+Required (Support)
+Apr 2001
+
+
+Bissonett is a good teacher, although this class required a lot of work the text is EXCELENT at simply explaining things and I think the combination of Bissonett and the text made a class that could have been really difficult a lot simpler.  Make sure you do the homework, don't get behind and know your credit's and debits!! and the second you get the final project START!!  I started over a week early and was still up till five the day of the due date.
+
+
+
+Freshman
+A
+Required (Support)
+Apr 2001
+
+
+I liked having Michelle for BUS 214.  Although the 2 hour lectures (avoid the 6-8 PM timeslot) could get boring, it was still rather interesting (it's accounting, for the love).  She explained everything clearly, and collected homework randomly, so if you want an A you better do the work and go to class.  I would say this class was easier than I had expected, and now I understand how the whole "business" thing works.  Although some of the homework can take hours, you won't regret taking her.
+
+
+
+Sophomore
+C
+Required (Support)
+Jun 2001
+
+
+Avoid at all possible!
+
+
+
+Sophomore
+B
+Required (Major)
+Aug 2001
+
+
+Professor Bissonnette was a good teacher for this course.  Upon taking the class, it was clear that she cares about the success of her students.  Her tests reflected what was taught and were moderately difficult to difficult - not unreasonable though.  Do your homework though, because she calls on you at random for answers.  She is not harsh though if you get the answer wrong.  The homework is quite timestaking and I would reccommend getting an early start on it.  I had a few really late nights trying to finish the problems.  The material isn't really complex, instead the difficulties lie with the fact that to most of the students, the material is all new.  I would recommend her as a teacher for this class.  You won't get there and say to yourself, "what the hell have I gotten myself into."
+
+
+
+Junior
+A
+Required (Support)
+Nov 2001
+
+
+Simply the nices professor on campus. She truly cares.  She will spend as long as needed to get the material. She was extremely helpful and made the subject interesting, even to a student that hated accounting.  Take her if you get the chance.  
+
+
+
+Sophomore
+A
+Required (Major)
+Dec 2001
+
+
+Michelle was a great teacher, just take her. She does assign homework, but it doesnt take very long. She really wants you to learn this material, and will help you in class or office hours. Dont be mistaken by some of the people who evaluated her in the past, TAKE HER!
+
+
+
+Sophomore
+N/A
+Required (Support)
+Mar 2002
+
+
+Michelle really is a great teacher to take financial accounting with! it's really a boring subject, but she enjoys it so much that its hard NOT to start to like it!  she's great with scheduling office hours outside of her standard ones, and she really cares about her students.  you'll also NEVER see her without a smile, which really makes the class seem that much beter!
+
+
+
+Sophomore
+A
+Required (Major)
+Mar 2002
+
+
+If financial accounting sounds daunting, Mrs. Bissonette will quell your fears.  She makes it seem simple by being clear in lecture, utlilizing homework well, teaching in an effective interactive manner and giving fair tests.  The class does involve a lot of work, but she makes it worth it.
+
+
+
+Sophomore
+B
+Required (Major)
+Apr 2002
+
+
+Mrs.Bissonette was a great teacher for this class. There is homework due everyday but the book is pretty easy to understand and she goes over it in class. There is two midterms, a quiz, and a final. Her questions are pretty fair, nothing tricky or too difficult. The only thing that sucks about this class is the comprehensive problem we have to do (all 214 classes do this though) which we get 2 weeks to complete a super difficult problem, so definitely start early so you can ask her questions on it. I highly reccommend her for this class.
+
+
+
+Junior
+B
+Required (Major)
+Nov 2002
+
+
+This is a tough class.  There is tons of information which you have to keep straight.  If you have to take this class, take it with her!  She is a great teacher and really encourages student involvement.  She is great during her office hours and takes plenty of time during and outside of class to make sure her students are comfortable with the material.  It definitely helps to do all the homework and go to the classes.  Try to take this class during an easy quarter because it does require so much work and time.  There is a big project to do but it isn't that hard, just takes time.  Do yourself a favor and take this class her!!!
+
+
+
+Sophomore
+N/A
+Required (Major)
+Dec 2002
+
+
+Shes a nice lady. I really didn't like the class. I'm definately not interested in this material, but Prof. Bissonnette did a good job introducing the class to accounting. I studied a lot for the midterms and always ended up getting lower then I hoped. The project took me hours to get finished, so give yourself lots of time to get it done. She has two midterms work 100pts each, one quiz 50pts, the huge project worth 50pts, and the final worth 150pts. The hardest part of the class was the project, just go to lectures and the material will stick.  
+
+
+
+Sophomore
+C
+Required (Support)
+Dec 2002
+
+
+It is true, taking professor Bissonnette for financial accounting is probably the hardest class you have to take.  I loved Bissonnette's class and it's hard to hate her because she is such an excellent teacher.  She does not curve AT ALL so whatever grade you receive is what you earned.  There are two midterms, a quiz (which is like 25 extremely hard multiple choice problems), a cummulative project, homework, and a final.  Very, very intense class and VERY VERY time consuming. If you really want to learn financial accounting i highly recommend professor Bissonnette because it's hard to find a professor that truly cares about her students.  One more advice: don't take stats 252 while taking this class, you will go nuts like i did!
+
+
+
+Junior
+A
+Required (Major)
+Feb 2003
+
+
+Professor Bissonnette is such a nice lady and a really great teacher!  Yes, the class is hard, but she is very good at explaining the concepts and she is always willing to help you out.  The workload is heavy because she randomly collects the homework (so you have to do it) and the homework was really time consuming.  The final project (that all 214's have to do) takes forever but she will help you figure it out if you go to office hours.  The tests were fair and straightforward, as long as you go to class and do the homework, you can do well.  Overall, I highly recommend Prof. Bissonnette.  She is great!!
+
+
+
+Sophomore
+C
+Required (Major)
+Apr 2003
+
+
+bissonnette is a really hard teacher!! there's 2 midterm [100 pts each], a project [50 pts], a quiz [50 pts], participation [40 pts] & a final [150 pts] the midterms & final consist of 25 multiple choice questions [3 pts each] and written problems worth 25 pts. the test are pretty straight forward...read the text & study the notes very thoroughly! the final is cummulative and she does not curve either!! i was .3 pts away from a b- and she wouldn't give it to me, i end up getting a c+ [and that's because i study my butt off!!!] if you HATE accounting, i recommend NOT taking her!
+
+
+
+Senior
+N/A
+Required (Support)
+Apr 2003
+
+
+This bitch talks to students like they are in 3rd grade.  I do not recommend anyone to take Bus 214 with her due to the fact that there are much better professors that actually care about the success of the students.  
+
+NOTE TO COB: GET RID OF BISS AND SWARTZ AND START PRACTICING SOME ETHICS WITHIN THE COB.
+
+
+
+Sophomore
+N/A
+Required (Major)
+May 2003
+
+
+Taking Bissonnette's bus 214 class was a great experience. She makes a very strong effort to make sure everyone's questions are answered before moving on with lecture.  She is friendly, approachable, and very willing to help. My concentration is Financial Accounting because of her course.
+
+
+
+Junior
+B
+Required (Support)
+Jun 2003
+
+
+There is no in between with this teacher.  You'll either love her or hate her.  If you consider yourself to be very adept in picking up material from lecture and from the book -then you'll be OK.  If you take a little more time to study and review for your classes - you'll regret taking this teacher for accounting.
+
+As someone else mentioned earlier, she is the nicest b*t*ch you'll ever meet.  Her lazy style of teaching may suffice for students that are fairly adept at picking the material up quickly but it sucks for the rest of us.  If you ask her how people do in her course she tells you that it is fairly spread out.  Thats not so bad, but when I asked her what she personally does to improve her course in order to try an improve her passing rate she said that she's been teaching the course the same way for the last few years.  In other words she does not care about trying to accomodate her mid to lower echelon students. If she did, she'd constantly be trying to improve her course, like other accounting professors I know.  Its no surprise that her courses have higher failure rates than other accounting professors.
+
+Her tests are (department midterms) and there is a clear gap between what she teaches you and what is on the test.  They are difficult and the HW alone does not prepare you for midterms.
+
+ALL in ALL I HATE HER AND SHE IS A NICE LAZY B*T*CH! 
+
+
+
+Sophomore
+N/A
+Required (Major)
+Jun 2003
+
+
+It's true she's a nice person but her grading is extremely unfair. If you miss just some multiple questions, you will probably miss A for that class.  Also She assigns too much homework, and I found this to be most problematic.  I just wonder if we really need to work on this subject that much...  
+I'm a biz major, but I would rather die than being an accountant in a company.  This teacher just gave us too much work and eventually made the subject even more boring
+
+
+
+Sophomore
+N/A
+Required (Major)
+Aug 2003
+
+
+I really recommend this teacher.  She is always willing to help students in office hours, gives points for homework and attendance and actually takes time to go over every homework problem until we understand.  Her lectures follow the book exactly so I got an A and only had to read a chapter every once in awhile.  Her tests are straight forward and nothing tricky.  Just pay close attention in class and you will do fine.  Everything she says should be noted and studied. 
+
+
+
+Junior
+A
+Required (Major)
+Oct 2003
+
+
+I was shocked to read some of the mean comments about Professor Bissonnette written below!!  They are NOT true, these people are just bitter because they couldn't handle the material (yes, it's hard, but she is sooo helpful!)  She was one of the best professors I've ever had; always willing to help, very clear in her lectures and expectations, and makes the class interesting.  You can do well as long as you study everything from the lecture and homework.  Some people were upset about her multiple choice counting for 2 points each on the test; it did make it easy to get a bad grade.  However, I made flashcards and they helped A LOT.  Plus there are no surprises, she sticks to the material she teaches in class.  Overall, a great professor, highly recommended!
+
+
+
+Sophomore
+A
+Required (Major)
+Oct 2003
+
+
+Avoid her if possible. There are better teachers for this class. She is a nice lady, but very annoying and by the book. Her random grading policy and random homework collection policy is not effective. Her tests are also not written very well. Her explanations are very over kill and she will make a tough subject even more difficult. Read the book and your a lot better off...better yet take a different teacher. 
+
+
+
+Junior
+B
+Required (Major)
+Dec 2003
+
+
+A great teacher.   Presents the material clearly and goes over every single HW problem we have.  Tests are a little difficult with a few off the wall questions but if you study and generally understand the concepts, you should get atleast a B on every test.  Also helpful during office hours and brings her dogs to the final.  
+
+
+
+Senior
+C
+Required (Major)
+Dec 2003
+
+
+Bissonnette is probably the best accounting teacher on campus for teaching accounting. shes definitly NOT the easiest but you will walk out of the class either loving it or hating it. she is very helpful in office hours and her tests aren't too hard if you know the material. basically just do ALL the homework, which is a lot but its worth it, and go to class (she grades on attendance, so if you go = free points) ... get started on the comp problem early, beacuase i spent 8 hours the night before doing it... its easy if you know what youre doing, just long. ok enough said...
+
+
+
+Sophomore
+B
+Required (Support)
+Jan 2004
+
+
+Proffesor Bissonnette really enjoys teaching accounting, and works well with students, and makes it easy for people to understand the material. She is very helpful during office hours and overall is the right teacher to take if you have to take accounting
+
+
+
+Sophomore
+D
+Required (Support)
+Jan 2004
+
+
+not easy at all. likes the girls so only curves their grades. but she really knows what she is talkin about. she teaches u the material then on the tests u know have to interpret the data on how it affects the statements and shit. she didnt really explain that too well. other people did good so i guess u can get a good grade. not my subject but a decent teacher. 
+
+
+
+Sophomore
+C
+Required (Major)
+Mar 2004
+
+
+accounting is a tough subject right off the bat, but she tends to rush it at the end of the quarter, which is bad. the stuff in the beginning is easy and she spends way too much time on it, leaving the tougher stuff with less time to cover before the last midterm and final. her grading of them is pretty tough too. out of 100 points, usually about 22 multiple choice, each worth 3 points each! so you miss 4 and there goes your A for that one. 
+
+
+
+Sophomore
+B
+Required (Major)
+Mar 2004
+
+
+I love her teaching methods.  Homework is assigned regularly.  She has two deck of cards--one with the letters of the alphabet and one with our names on it.  She randomly takes role every now and then (with the deck of our names). She randomly collects homework from those people with last names that start with the letters picked from the deck.  So the need for you to go is established--points are deducted if it's your unlucky day.  Her tests are straight forward. They include scantron and a few write-out problems.  There's a big project that is given to you to work on throughout the quarter so DO NOT PROCRASTINATE on this and take advantage of her office hours.  She's very fair and wants feedback from her students all the time.  The only variable in all this is the class mix.  If her students aren't participating in class, it's hard for her to be excited about the material.
+
+
+
+Sophomore
+A
+General Ed
+Mar 2004
+
+
+Allright, some people probably don't like Bissonnette because she actually makes you learn the material. As someone trying to get a meaningful education , I found this quite useful. You have to go to class, do the homework, participate (she gets really pissed if you don't), and complete projects. You do all this, and you WILL learn a whole lot of relevent information needed for any successful business career. She's one of those teachers who makes you practice the stuff so much that by the time the test roles around, you don't even need to study that much. Of course, if you didn't participate in class...you're screwed. Good luck. 
+
+
+
+Sophomore
+A
+Required (Major)
+Mar 2004
+
+
+Absolutly awsome.  Take her without a doubt.  Do the homework, read the book and your money.  Shes interesting, her lectures arn't boring and she makes sure the students understand the material.
+
+
+
+Sophomore
+C
+Required (Major)
+Apr 2004
+
+
+I thought she was a very nice teacher.  Her tests are pretty hard so make sure you really keep up with the material.  She assigns homework that she randomly collects, which makes you do it every time.  If you pay attention in class you will have no problem with the project, just take your time.  I would recommend her if you are actually interested in taking this class.  If you really don't care about the subject, you should probably take someone else.
+
+
+
+Sophomore
+A
+Required (Major)
+Jun 2004
+
+
+This was one of the best classes I have taken at Cal Poly, and Prof. Bissonnette is an outstanding instructor. She is very knowledgeable about accounting and makes the subject very interesting to study. She does assign and collect homework, however the homework is very reasonable and it's a good idea to do it anyway. Her tests are challenging, but most people agree that they fair and if you go to class and pay attention there is no reason you shouldn't be getting at least a "B." Prof. Bissonnette is an "asset" to Cal Poly, no pun intended. Take her if you can!
+
+
+
+Sophomore
+A
+Required (Major)
+Aug 2004
+
+
+Bissonnette was great! She explains points very clearly and does a good job at re-emphasizing all of the important details. She is super friendly in office hours and is willing to help. Her tests fairly cover the material. If you go to class, pay attention, and keep up on homework/reading, there is no reason you cannot get a B or an A. Take her!
+
+
+
+Freshman
+B
+Required (Support)
+Mar 2005
+
+
+She feels that she needs to spend tons of time on the easiest material in the course. Then, when finals are a week away, we do 2 chapters durring dead week!! the worst part of it is that she told us we were on our own for one of them because we ran out of time. Maybe she should stop telling so many lame general electric stories that only she thinks are funny. Her class is BORING! I seriously fought to stay awake and even brought energy drinks into class - didnt work. i think i slept through atleast half her lectures. Good thing the book does a fair job at explaining material because she sure doesnt!
+
+
+
+Sophomore
+A
+Required (Major)
+Mar 2005
+
+
+Bissonnette is a very nice teacher, I don't understand why the person below me thinks she's that bad. If you actually pay attention in class, everything makes perfect sense, she explains everything well, and I'm sure I could have still passed her class with flying colors without touching the book. Once you get the basics down (A=L+E) then everything else is easy.
+
+
+
+Sophomore
+B
+Required (Support)
+Apr 2005
+
+
+Bissonnette was a good teacher who definately knew her accounting.  She did a very good job of going over everything clearly in class, so much so that i never even used the book, except for doing the homework which is assigned daily but is collected by her random pulling of names.  The tests are very comprehensive, but i didn't study at all for any and got B's all across.  If you study a little bit tests should be fine.  Lastly there is a project that everyone has to do which requires about 10 hours of work, but if you're taking bus 214 you have to do it regardless of the teacher, and bissonnette was really helpful outside of class so just don't wait until the last minute on that.  
+
+
+
+Sophomore
+C
+Required (Support)
+Jun 2005
+
+
+What can i say other than a horrible teacher....
+She literally told us what the entire chapter was about for the first hour and then for the second hur would just sit there and go over it again and if someone left she would immediately hand out the roll sheet to put the name down.  Her tets are incredibly hard and she gives out so much homeowork including these problems that literally take  hours to do... take my advice and dont take this woman....
+
+
+
+
+Freshman
+B
+Required (Major)
+Jul 2005
+
+
+A fair teacher, she knows her stuff. Her midterms are fair, make sure you study well for them. The final is a bit challenging, harder than the midterms. The project was easy, but all 214 classes have the same project. I would recommend her.
+
+
+
+Junior
+A
+Required (Support)
+Aug 2005
+
+
+she knew her stuff and explained things clearly the first time, but when people would ask her to clarify more, the subject would become muddled. She told u exactly what she wanted and made it easy to do well, hw was required but easy and attendance is required, because she might call on u to answer the hw questions
+
+
+
+Sophomore
+A
+Required (Major)
+Nov 2005
+
+
+Bissonnette is the best teacher that I have had since I have been at Poly.  She is very patient with the students, very helpful to your questions, and covers material in great depth.  Even though accounting is boring to an accent, she made this class great.  I love her and I definetly recommend her.
+
+
+
+Junior
+A
+Required (Support)
+Dec 2005
+
+
+Professor Bissonnette is an excellent teacher. She explains exactly what you need to know and assigns homework that will help you learn the material. He lectures are clear and organized and her test all contain material she went over in class. My advice to is to go to class as much as possible, do all the homework and the class will be cake. 
+
+
+
+Sophomore
+A
+Required (Support)
+Jan 2006
+
+
+Very good teacher, she really knows the material and has excellent insight.  I thought it was a very easy subject.
+
+
+
+Freshman
+C
+Required (Major)
+Feb 2006
+
+
+Mrs. Bissonnette is an awesome accounting teacher. Seriously. I know I only got a C in the class, but that is my own fault. Michelle really knows her accounting, and has a lot of real world experiences to help explain accounting better. She does assign homework but she picks random names to turn it in and I never got chose, so I never had to turn homework in. However, to giev you credit for the homework and make sure you did it she will randomly call on the people that didn't turn it in to answer the questions. Do the homework and read the material, it helps a lot! This class really isn't bad but if you hate being in class this isn't the one for you. She takes aways points from your grade if you don't show up or do your homework and she loves to use every last minute of class, it is very rare if you get out early. Mrs. Bissonnette is very approachable and very willing to help, overall a really good class with a reallt good professor. Oh and class only consists of two midterms, a final, and a project. That is all with the homework. Not bad at all.
+
+
+
+Sophomore
+B
+Required (Major)
+Mar 2006
+
+
+Very hard class. Backbreaking project...but it's unavoidable. She's probably one of the better teachers but i'd do more research before you take this class with Bissonette. I'm not kidding you, this class sucked.
+
+
+
+Sophomore
+C
+Required (Major)
+Mar 2006
+
+
+She's a really great teacher. Be prepared to work really hard on the group project because she only gives you two weeks, which is unrealistic if you have any other hard classes that assign projects but if you have a good partner and you generally know they info from the first test you'll be fine. The first midterm was really easy but the second midterm was much harder because it was given right after the project was due. However, she really knows her stuff when it comes to accounting so you'll really learn a lot. She is definately worth taking and she's a really sweet teacher. 
+
+
+
+Sophomore
+A
+Required (Major)
+Jul 2006
+
+
+She is a very good teacher. Accounting can be confusing and it takes reinforcement and practice which she understands. She is very helpful and her classes were pretty interesting. I'd recommend her to anybody!
+
+
+
+Freshman
+A
+Required (Major)
+Aug 2006
+
+
+Amazing teacher! She teaches well and tests hard! Collects HW, and gives credit for participation.  Probably one of the best teachers!
+
+
+
+Freshman
+A
+Required (Support)
+Aug 2006
+
+
+What an awesome teacher.  She explained everything clearly and was really helpful at office hours.  If you do your work, take notes, and study a little, you will do fine.  
+
+
+
+Sophomore
+C
+Required (Major)
+Oct 2006
+
+
+She is a really good teacher.  You need to know that accounting is a class you need to put a lot of work into.  she takes her time explaining things, so dont be tired going into the class each day or youre bound to nod off, but she is really thorough and will def take you up on office hours. She really wants students to understand it.  oh, and dont cheat on the big accounting problem all 214 students get assigned.  there was a huge fiasco my quarter and they almost didnt count it. 
+
+
+
+Sophomore
+A
+Required (Major)
+Dec 2006
+
+
+She is a really nice lady and wants the students to do well.  This class isn't that bad and it is basically what you put into it.  Some homework assignments take forever, but help you understand it better.  There is a partner project that is stressful and takes a long time and is only worth 40 pts of a total of 420.  For the tests I would just read the chapters and they weren't too bad.  Overall, not a bad class at all for accounting.
+
+
+
+Junior
+A
+Required (Major)
+Dec 2006
+
+
+great teacher!!! she is very helpful. if you have any questions she will re-explain the material in a clear and concise manner. the tests are all pretty straighforward. if you do well on the last few tests she will give you the benefit of the doubt and bump you up if you are close. one tip: use the supplemental book that comes with the textbook. it highlights all the important parts and has sample questions that are multpile choice just like the ones on her tests.
+
+
+
+Sophomore
+B
+Required (Major)
+Mar 2007
+
+
+She can teach well but her tests are way too difficult. The project takes like two weeks and is a pain.
+
+
+
+Sophomore
+B
+General Ed
+Mar 2007
+
+
+soooooooo boring. but thats just the class, not this teacher. you have to take it so you might as well take it with her. she didnt curve the tests though. that kinda sucked. every test is all scantron. you rarely have to turn in the hw, but if you dont you may have to answer the question out loud in class. if you didnt do it its points off. i zoned out for like 30 minutes every class. i couldnt help it. boring stuff
+
+
+
+Senior
+A
+Required (Support)
+Apr 2007
+
+
+She is a tough teacher for a dry subject, which is usually a deadly combination.  However, you learn a decent amount if you can stay awake, and while she may be difficult, she can communicate pretty clearly.  If you want to do well on the tests you pretty much have to sacrifice at least 3 or 4 hours the day before to go through the chapters and take detailed notes.  Also, doing the homework actually does help for the exams; even though the questions are multiple choice, some of them require you to do calculations or answer questions similar to homework problems.  She is pretty helpful in her office hours so utilize them if you can.  Overall, I'd recommend her, but just be ready for a lot of work.
+
+
+
+Freshman
+N/A
+Required (Major)
+Aug 2007
+
+
+If you aren't good at accounting I def recommend that you do some prep for this class. The tests (2 mids 1 final) are ridiculous and of course there's no curve. I'm not that great at aaccounting, but I felt that i understood the material quite well and studied for hours, but when it came to exam day, the questions were obscenely difficut. The two hours are brutally boring and sometimes almost impossible to stay awake. HW is fair, about once a week, but it is time consuming, however you rarely have to turn it in because she collects only a few randomly. She seems eager to help, but once in her office she's rude and vague, especially during the project!!! It's a group project that is tough and takes forever, so dont procrastinate. Also it's only 40 out 420 pts which is stupid for the amount of time and effort!! Basically shes an ok teacher I reccomend you take a better one, but if you can't you'll probably be able to pass this class. 
+
+
+
+Freshman
+N/A
+Required (Major)
+Oct 2007
+
+
+Very good teacher, highly recommend taking her class. She presents material clearly and gives examples related to the subject. Attending class is a must because the book can be sometimes hard to figure out. the people the did poorly were the ones that skipped (coincidence?)
+
+
+
+Freshman
+A
+Required (Major)
+Aug 2008
+
+
+Professor Bissonnette is a great professor for 214.  She is very straightforward, no busy work kind of professor.  There was a lot of coursework to do regularly which she collects randomly, and class participation is vital as she will randomly do attendance checks.  But she teaches the material so clearly, which is so important for learning the fundamentals of accounting, or else, accounting concentrations will be confused further along in their careers at Poly.  Shes so helpful in her office hours, so I recommend going!  Also, she gets really busy at office hours because she is SO helpful that there is usually a line! Anyways, take her if you can, especially if you enjoy accounting.  She's worth it!! 
+
+
+
+Sophomore
+A
+Required (Major)
+Dec 2008
+
+
+Bissonette is the nicest lady ever.  Her class is EXTREMELY difficult but she loves feedback so she can always improve her teaching.  She hands out candy during the tests which is fun and she's very helpful when you go to office hours.  If you do take her, make sure to go to office hours at least so she knows who you are.  Very hard teacher but I really respect her as a person.
+
+
+
+Sophomore
+B
+Required (Major)
+Dec 2008
+
+
+I liked this class. I think she is a great teacher, her lectures coincide perfecyly with the book, and she really strives to help students understand. Her examples might seem overly simplified and silly at times, but i guarantee you will remember them on the test, which is what her point was i think. she likes it when you give her feedback in class, if you don't, the lectures can get kind of boring. but she's a great teacher and i really recommend her. you have homework due on thursdays and it's kind of interesting how she gives you credit for it (i don't feel like typing it all out) but basically you should do it, it will help you learn anyways. the tests were what was expected i think, though i felt like i did a lot better on them than i actually did. the "game" project is really simple, as long as you pay attention in class. i think people made it harder than it was. anyways, she's a great teacher, some people think class was boring (and it can be at times) but it's a great class and you really understand the fundamentals of accounting after it.
+
+
+
+Freshman
+A
+Required (Major)
+Mar 2009
+
+
+Awesome class. I thought I was going to hate accounting but I actually liked it. She did a really good job of presenting the material. The homework took a long time, but at the same time I was really well prepared for the tests. There are other teachers that are easier, but I feel very comfortable with the material and I highly suggest her!
+
+
+
+Freshman
+B
+Required (Major)
+Mar 2009
+
+
+I got a B in the class after getting a 68 on the first midterm.  I learned the most info in this class than any other class so far (2 quarters).  She was nice, but the class was a tad difficult.  You need to study for the midterms and pay attention, but if you do you should be fine.  Plus she brings candy on the midterm days, which is always a bonus.
+
+
+
+Senior
+A
+Required (Major)
+Apr 2009
+
+
+If you want to learn and actually be taught something, take her.  Great teacher, super nice, and explains the subject really well.  The homework does take time, a lot of time, but it is worth it because if you just do the homework and read the chapters and go to class it is a cinch.  Each midterm I studied about 2-3 hours for and got a 94 and 98.  If you just follow the class and do the work the tests are a breeze and it is an easy A.
+
+she was great in 320 too, but that class is a lot more difficult but same setup
+
+
+
+Freshman
+A
+Required (Major)
+May 2009
+
+
+Bissonnette is a wonderful professor.  Not only did she present the material in a clear and concise manner, but she also genuinely cared about the students.  The class is based on hwk, midterms, and a cumulative final. Homework is graded on a credit/no credit basis, and she goes over everything in class very thoroughly.  The only downside to her class was that the homework assignments take alot of time.  The midterms are challenging, but if you study you should get at least a B.  I would reccommend Bissonnette to anyone, TAKE HER!
+
+
+
+Freshman
+B
+Required (Major)
+Mar 2011
+
+
+Professor Bissonnette was my favorite teacher this quarter. She teaches clearly and concisely and she really cares about us (her students). There were 3 online quizzes, 2 midterms and a final. Homework is turned in selectively each time it's due, so doing it will help you do well. I would have gotten an A, but I forgot about a midterm date and kinda messed up a little. She is there during office hours to talk about class and offers great advice for problems we have. I would love to take her again! 
+
+
+
+Freshman
+C
+Required (Major)
+Mar 2011
+
+
+She is an adequate teacher for a course that is just very hard. Her course has 2 midterms and a final. ALL of which are very very very difficult. I bombed the first one which ended up being why I got a C in the class. The way she words the questions is very tricky and the first three chapters that are tested are tricky to grasp so study a lot for the midterm or else it will come back to bite you in the ass. Her final was also very difficult due to the fact that it was cumulative. 2 chapters were new and they took up half of the test. The other half was already tested on material. Overall, she was an okay teacher for a class that I had to put ALOT of effort in because the concepts were very difficult for me. 
+
+
+
+Freshman
+A
+Required (Major)
+Mar 2011
+
+
+A professor who is professional, organized, and fair. She never wastes your time and details exactly what to expect of the class from day one. The all-multiple choice midterms and final are not easy, but if you pay attention in class, read the book, and spend a few hours studying before each exam there's no reason you can't earn an A. The overall workload is not bad at all and as long as you put some time and effort into this class the end result will be good.
+
+
+
+Freshman
+B
+Required (Major)
+Mar 2011
+
+
+Bissonnette, shes old, kinda grumpy, gets really mad at the class when they dont answer question but she teaches pretty darn well! id recommend taking her if you would really like to learn accounting well. READ THE TEXTBOOK!! it really helps you get the basics and she helps you learn the rest. Not an easy A at all and her midterms are pretty normal as far as midterms go.
+
+
+
+Freshman
+A
+Required (Major)
+Apr 2011
+
+
+Coming into this class everyone warned me how hard accounting was but Bissonnette made the course seem almost "easy". By "easy" I mean you can understand it as long as you put the time in to do the required work. She is very sweet and really cares about your learning and accounting. If you do the reading and homework and get help when you need it you really shouldn't struggle in the class. It is a very tedious subject and I couldn't image a better teacher for it. 
+
+
+
+Freshman
+B
+Required (Support)
+Apr 2011
+
+
+Avoid if you can. She has an extremely hard time teaching the materials although it seems that she really does care if you learn it. Her tests are absolutely ridiculous because she claims that she doesn't teach to the test so a significant part of the tests she never even mentions in class.
+
+
+
+Freshman
+A
+Required (Major)
+Dec 2011
+
+
+ i loved the class. if you do the homework and reading on schedule, then the class is great as she teaches very well and you WILL get a good grade. she doesnt make the class impossible. she's super nice and fair. don't let other negative polyratings deter you. GREAT TEACHER!:)
+
+
+
+Freshman
+B
+Required (Major)
+Mar 2014
+
+
+Very boring class, but since accounting is a dry topic I wont place too much blame on her. However, she never made any attempt to engage the class. And she takes forever to get through content; she isn't the most effective teacher. Her tests and quizzes were fair and content comes straight from the textbook so if you put in some work you can manage a B pretty easily.
+
+
+
+Freshman
+B
+Required (Major)
+Jun 2014
+
+
+Very good teacher. Accounting is not a very exciting subject and she holds you in class for the full 2 hours so by the end you do not pay attention. She gives homework which seems like a lot the first few chapters but by the end is not bad. She picks randomly who turns in the homework and if you don't turn it in that day that when she goes over it she might call on you to explain what you did. This is for attendance points. She gives 3 quizzes that were fair. They were 5 problems with each one being worth 2 points. The first midterm was pretty easy and the second one was a little challenging. The final was pretty difficult and I have had people who took her at different quarters say the same thing so really prepare for it. Great teacher for a boring subject.
+
+BUS 215
+
+
+Sophomore
+N/A
+Required (Major)
+Dec 2003
+
+
+She is a great teacher! I recommend taking her.  There is a project 3 tests and a comprehensive final.  Class is pretty easy, and interesting.
+
+
+
+
+Sophomore
+A
+Required (Major)
+Apr 2005
+
+
+From True Rater:
+Mrs Bissonnette was a very good teacher. She is very friendly and convays the material really well. She randomly grades h.w. so i suggest you do it, besides if you can do the h.w. you will do fine on her tests. The tests were a lot more vocabulary and analizing than computations. She will let you reschedule one mid term if you need to. The class consists of two midterms and a final exam which is partially cummulative but mostly material from the third section. Be sure to spend a lot of time on chapter 3&4, if you know chapters 1-4, the rest will be easy.
+truerater
+
+
+
+Sophomore
+B
+Required (Major)
+Feb 2011
+
+
+Bissionette is a really great teacher.  I took her for BUS 214 and 215.  Her slides are really helpful, so I would recommend always printing them out before lecture.  Also reading the book is a must.  Definitely read the chapter before she lectures on it.  Overall, the class is alright.  I always dreaded going because she covers so much material in such a short amount of time.  She literally lectures for 2 hours straight and you can expect to just sit there silently taking notes (which drives me crazy).  Her tests are extremely difficult.  I felt like I was taking the freaking CPA exam when I took the final for BUS 215!  In both BUS 214 and 215, I went into the final with a low A- and my overall grade turned out to be a B, which was really frustrating.
+
+
+
+Freshman
+B
+Required (Major)
+Jun 2012
+
+
+Very boring class because all of it is powerpoints and going over homework. The tests are all multiple choice, which can be annoying but they are straight forward. She never posts grades up online and does not go over the quizzes very well after we took them. If you go to her office hours, she helps a little but overall I thought this class was boring. Everytime I email her my questions, she responds with answers that don't really answer my questions at all. I wish it looked like she cared more about her students. Then, maybe I'd want to go in to her class. 
+
+
+
+Freshman
+A
+Required (Major)
+Jun 2012
+
+
+Boring class with homework every other class. Professor Bissonnette is overall a pretty good lecturer, but it's really obvious she doesn't give a crap about her students. She was also pretty unenthusiastic about the class, which made us somewhat unmotivated. She grades pretty fairly and midterm grades sits around B- average. Class structure was 2 midterms and a final, 3 quizzes, weekly homework, and lab problems. All multiple choice questions. She is somewhat intimidating, but not too bad overall. The class is easy to pass, but somewhat difficult to ace.
+
+
+
+Junior
+B
+Required (Major)
+Nov 2012
+
+
+I've had Bissonnette for 215 and 320. While class can be a little dry sometimes, she has been the most fair and reasonable teacher I've ever had. 
+
+Her tests are multiple choice, and based purely on what she lectured on in class. Some trick questions, but nothing that you wouldn't pick up on by attending lecture. 
+
+She is extremely helpful in office hours, and usually makes an effort to have extra hours if the class seems to be struggling. 
+
+Make sure to review her powerpoints and chapter outlines, which she posts on poly learn, and you will do fine. 
+
+BUS 314
+
+
+Junior
+C
+Required (Major)
+Jun 2003
+
+
+Mrs. Bissonnette is a very below average teacher. She is a nice lady and knows her material but assigning homework assignments and then going over them is not teaching. The worst part is she assigns homework and then tells you the next day she won't go over it and that you should know it. I did well in 214 and 314 is a little tougher but I would definitely say I knew the material better than a C. Her tests are 25 multiple choice and if you get 3 wrong you already have a B. Since when did Accounting become multiple choice is what I want to know. Her good Polyratings are a direct result of her being a nice lady and she does show concern for students. This should not be misunderstood as good teaching though. She does not grade on a curve and the first midterm we had she said the average grade was a 77 but everyone around me had at best a high D. I even pulled a low B minus. I heard Iqbal is a cool teacher and way easier so I would suggest taking him if you want a good grade.
+
+BUS 320
+
+
+Junior
+C
+Required (Major)
+Dec 2006
+
+
+She is one of the best professors Ive had here at poly.  She took an entire chapter out of the class because she noticed people were not keeping up.  Tax can be tough because there are alot of exceptions to the rules, but she tries to back everything up with an example that you can relate to.  I recommend taking tax with Michelle.  Two midterms and one final, one big tax return problem and one smaller one that you can work on in groups.  This is a class that even if its not your concentration, it may be a good idea to take to save some money later in life, very practical.
+
+
+
+Senior
+B
+Required (Major)
+Jan 2007
+
+
+Professor Bissonnette is a very nice lady but a hardass at the same time. She cares about her students but doesn't give a shit for excuses or laziness, which is a good thing to an extent. If a vast majority of students do terrible on question on a test (she writes) she will not admit fault. Nevertheless, she's is more than happy to help you during office hours. It was her first quarter teaching Tax, which is a pretty difficult class, so maybe thats why a lot of students didn't do well. Finally, don't worry about taking her just make sure you get your shit done, she doesn't care if you don't and will not hold your hand.
+
+
+
+Senior
+B
+Elective
+Dec 2007
+
+
+Two Midterms and one Final 26% each. Homework and Participation 8%. Tax Return Project 14%. The lectures are very interesting. She does a great job of breaking down the ideas. She also does a great job of leaving out the unimportant information, but there still is quite a bit of detail that you go over. Homeworks are not graded based on whether you did them right, she is looking for effort. Homework is due every week, and it is important that you get that done. It makes the lectures more interesting, and it makes it so much easier once the finals come along. It is also important for participation points. She calls out individuals in class to answer tax problems. The tax project wasn't difficult, I think the class averaged a B+, just make sure to up with the homework. Her slides are extremely helpful for studying. Do NOT stick to the slides completely. They are an good outline. There are some parts where she doesn't go into detail on the slides, it is rare, but there were a few parts that this happened. She gives very good supporting notes and material. Very supportive in class and during her office hours. I don't think this class could have been taught much better than it was. 
+
+
+
+Senior
+C
+Required (Major)
+Jun 2008
+
+
+Great teacher.  I had her for Tax (Bus320) and this class is difficult but I think she did a good job.  She explains her PowerPoints well and does lots of practice problems.  Though her PowerPoints are outline format so it doesn't go super in-depth into some things which are important to know.  Her office hours are a must.  I actually wish I went more because every time I went, she was very helpful and would try to help you understand the material.
+
+So with that being said, this class is extremely difficult.  A lot of students (including myself obviously) had a lot of trouble with this class.  Lots of memorization of exceptions, formulas, rules, etc.  She says it's important to know the reasoning behind everything, but it turns out more like straight-up memorization.  A lot of people I talked to who took this class already said it was their hardest class in all of accounting and I believe it.
+
+
+
+Junior
+B
+Required (Major)
+Dec 2008
+
+
+Professor Bissonnette is a good teacher for this class and overall I would recommend her. Tax is a very time consuming and difficult class and when I took this class I didn't know that so this past quarter turned out to be pretty rough. But as far as what I wish I knew beforehand is to spend the most time studying her slides as they are almost everything you need to know (the book is large and has a lot of additional material that you don't need to know all the details), also do well on the tax project as she grades pretty hard, and lastly don't give up easy points and study several days in advance for the midterms (I would suggest going over the homework problems, slides, at least twice). I had a borderline grade in this class and studied a lot for the final (all of deadweek and the weekend before the Monday final) and I think it paid off. 
+
+
+
+Junior
+C
+Required (Major)
+Dec 2012
+
+
+Oh Bissonnette... What to say. 320 was a very informative class to say the very least. Bissonnette is a very sweet lady but she doesn't put up with any bullshit. She is very biased towards her CPAC kids and office hour hoggers. She has a masters in tax so tax is her baby. Do NOT expect this class to be easy whatsoever. She collects homework every class period and if you aren't in the group that turns their homework in then you better know your shit because you will get called on and she will make you answer and if you're wrong she will slightly help you come to the right answer. There are two midterms, very very very detailed and there is not nearly enough time to finish them and go back through to check your work in 2 hours. She is really horrible at coming up with multiple choice questions, she usually gives two answers that are correct but there is one that is more correct and even if you can prove that she's wrong she won't give you the points because she won't admit any fault when it comes to tax. She also corrects the book A LOT because she is all knowing so make sure that you go to lectures and PAY ATTENTION. Do NOT rely solely on the book for your information. There is also a partner tax return project that she acutally grades fairly nicely on. You will learn a lot from this class but it is not easy and it is not enjoyable. If you want to learn a lot with the possibility of doing horrible because of how she has everything weighted then take her class. If you want to learn the material AND do well take it with another professor. All in all though it was a good class, just the points were set up retardedly and she throws a lot of curve balls. She also expects you to learn how she did and her professors made them memorize every single thing. Get ready to give your life to tax with Bissonnette.
+
+BUS 321
+
+
+Sophomore
+B
+Required (Major)
+Jun 2002
+
+
+Michelle is a really good teacher who cares about her students and really tries to help the class. After all I have heard about other accounting teachers, I would highly recommend Michelle. Just watch out for her exams, her multiple choice can be hard if you dont actually read some of the fine print in the chapters.
+
+
+
+Junior
+C
+Required (Major)
+Aug 2003
+
+
+Bissonnette will be one of the hardest teacher's you can take for accounting.  She is a very nice lady and will teach slowly for students to understand, but her exams are extremely hard!! There are two midterms and 1 final and she still collects homework randomly.  She does not curve and will probably fail the whole class if she needs too.  The first midterm for Bus 321 is mostly review from what you learned in 214, however the class average was only a 70%.  She even makes review material really really hard.  The final is NOT cummulative but it is extremely difficult.  Her office hours are usually over crowded with her 214 students so it is hard to get one on one attention.  Overall i regret taking Bissonnette because her expectations are really high and even though she can present the material clearly, her exams are just too difficult for an intermediate accounting class.  She suggest studying from the CPA review book because she usually takes questions from there.  You decide.
+
+
+
+Senior
+N/A
+Elective
+Mar 2004
+
+
+great teacher!
+
+
+
+Junior
+A
+Required (Major)
+Apr 2004
+
+
+she is a great teacher, and not very hard at all. It basically comes down to the fact that if you do your work and know your shit you will come out on top. 
+
+
+
+Junior
+A
+Required (Major)
+Oct 2004
+
+
+she is awesome. she is clear. she helps you. she wants you to do well. 321 is NOT a hard class. Accounting is NOT hard. just read the book and know the diff between a dr and a cr and you will get an A for sure
+
+
+
+
+Junior
+A
+Required (Major)
+Dec 2004
+
+
+She is a great teacher.  Bus 321 isn't too hard as long as you understood 214.  She makes it very clear and focuses on theory.  She definitely provides a very strong base for all of the future accounting classes.  
+
+
+
+Junior
+N/A
+Required (Major)
+Dec 2004
+
+
+This was a tough course, but she is an outstanding accounting professor. She teaches you what you need to know and doesn't waste your time. Take her if you can!
+
+
+
+Junior
+N/A
+Required (Major)
+Dec 2004
+
+
+I had taken Prof. Bissonnette for 214 and did not like her very much but I figured I would give her another chance for 321. She lectured instead of discussed and if she did know the material, she was not able to answer questions thoroughly or at all. She seemed prepared with prefabricated notes and lecture material but could not relate the info to her students, and often times was misinformed or uninformed and would not admit it. Her grading system seemed fair at first but her grading methods made the class very difficult. One thing that I didn
+
+
+
+Senior
+C
+Required (Major)
+Jan 2005
+
+
+I thought Michelle did a great job teaching.  This class was not as hard as I thought it would be, but her final was fricken harder than anything I pretty much failed it after getting a solid B on the previous test and I studied for more than enough time, even a buddy of mine who practically aced the class scored a low B on the final, so study a whole heck of a lot...  Also, make sure accounting is really what you want to do cause 322 is worse than 321 (if you think 321 is actually that bad) I wish I had taken Finance instead, even IS makes better money and work less hours at the Big 4.
+
+
+
+Junior
+A
+Required (Major)
+Feb 2005
+
+
+Michelle is really fair.  She is strict on attendance, but its good because you don't want to miss or you will be behind.  Her tests are hard, but fair because she gives you a concept review.  The trickest part is the multiple choice. But I would for sure recommend her.
+
+
+
+Sophomore
+A
+Required (Major)
+Oct 2005
+
+
+if you cant pass this class you are an idiot.  accounting is straight up and easy to understand.  she goes over all the topics in class and is extremely knowledgable about accounting.  i hardly studied, and only missed 4 points all quarter.  and i did the project in two class periods.  take her she is easy and nice.
+
+
+
+Junior
+C
+Required (Major)
+Jun 2011
+
+
+Horrible teacher.  Does not relate to the students, just reads off slides on power point and says yeah it's straightforward you guys are smart and can figure it out.  Honestly the worst teacher I've ever had.  Tests are very hard and this BUS 321 course requires a good instructor to teach the material thoroughly so someone can really understand it well and not just memorize.  She is not qualified nor good enough of a teacher to teach intermediate accounting.  
+
+
+
+Sophomore
+B
+Required (Major)
+Jun 2011
+
+
+Going to have to agree with the last post.  She's a sweet lady but just read off of powerpoints.  She usually teaches 214 so she assumed that since we're all accounting majors, we knew everything from 214 by heart.
+
+
+
+Junior
+B
+Elective
+Jun 2011
+
+
+Professor Bissonette was a really good teacher for this course. She was especially concerned with making sure that everyone understood the material that was being covered. She also randomly collects homework, so for me, that helped with not falling behind and with staying up to date in the class. It is definitely a challenging course, but Bissonette explains the material well and is always available for office hour consultations.
+
+
+
+Sophomore
+C
+Required (Major)
+Jul 2011
+
+
+Horrible teacher, nice lady but awful BUS 321 teacher.  Can't teach intermediate accounting well at all.  Not qualified to teach a higher course of this nature.  Expected way to much of us teaching ourselves and didn't really teach the material, just expected us to know it.  Really annoying.  Studied extremely hard for this course and got the worst grade I've ever received here at Cal Poly.
+
+
+
+Junior
+A
+Required (Major)
+Apr 2013
+
+
+Prof. Bissonnette is great. She collects hw which will keep you on track and she posts powerpoint slides to polylearn which are easy to study from. Her tests can be challenging but they aren't cumulative. If you need someone to spoonfeed you the textbook, you should have declared marketing. Study hard and the class is easy, but don't expect to learn everything in lecture.
+
+
+
+Senior
+A
+Required (Major)
+Dec 2013
+
+
+Bissonnette is a great teacher and if you actually study you won't do worse than a B. Her tests are hard but fair. People complaining about her teaching style are probably the same kids holding the class up with stupid questions. Also the CPAC nerds will hog her office hours, if you go to those. 
+
+ART 748
+
+
+Freshman
+A
+Required (Major)
+Nov 2016
+
+
+During this entire quarter all I could think about was how this professor reminded me of that small little dog that runs through the back of scene 23 in The Incredibles by Pixar.  Seriously, if you look it up you will only be able to see it...
+
